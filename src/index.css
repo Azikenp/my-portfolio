@@ -4,3 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
+#nav--links{
+    border-radius: 7px;
+    box-shadow: 30px 20px 1200px rgba(240, 248, 255, 0.905);
+}
