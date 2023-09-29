@@ -22,7 +22,7 @@ const About = () => {
           <FaEnvelope className="w-6 md:w-8 h-6 md:h-8" />
         </a>
         <a href="https://hashnode.com/@Azikenp" target="_blank" rel="noreferrer">
-          <hashnode className="w-6 md:w-8 h-6 md:h-8" />
+          <img src={hashnode} className="w-6 md:w-8 h-6 md:h-8" alt="hashnode icon" />
         </a>
       </div>
     </div>
