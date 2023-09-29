@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaEnvelope, FaGlobe } from "react-icons/fa";
-import hashnode from '../assets/img/brand-icon-white.png'
+import hashnode from '../assets/brand-icon-white.png'
 
 
 const About = () => {

@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from "react";
-import avatar from "../assets/img/avatar.gif"
+import avatar from "../assets/avatar.gif"
 import gsap from 'gsap';
 
 
