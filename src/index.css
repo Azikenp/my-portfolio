@@ -18,3 +18,8 @@
     box-shadow: 1px 1px 5px rgba(240, 248, 255, 0.905);
     transition: all 300ms ease-in;
 }
+
+.stacks{
+    background-color: rgb(61, 67, 67);
+    box-shadow: 1px 1px 5px rgba(240, 248, 255, 0.905);
+}
