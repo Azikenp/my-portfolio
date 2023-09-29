@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaLinkedin, FaGithub, FaEnvelope, FaGlobe } from "react-icons/fa";
+
 
 const About = () => {
   return (
@@ -7,6 +9,20 @@ const About = () => {
       <div className='text-[#dde5eb] text-[1.34rem]'>
         <p>My name is Aziken Precious and i am a skilled Frontend Developer. With a passion for web development, i have honed my skills in creating beautiful, intuitive user interfaces using the latest technologies.</p><br />
         <p>With a strong commitment to learning and growth, i am always seeking new opportunities to expand my skills and contribute to meaningful projects. Connect with me to learn more about my work and interests.</p>
+      </div>
+      <div className="flex items-center justify-center mt-5 gap-x-7 text-[#dde5eb]">
+        <a href="https://www.linkedin.com/in/aziken-precious-712043237/" target="_blank" rel="noreferrer">
+          <FaLinkedin className="w-6 md:w-8 h-6 md:h-8" />
+        </a>
+        <a href="https://github.com/Azikenp" target="_blank" rel="noreferrer">
+          <FaGithub className="w-6 md:w-8 h-6 md:h-8" />
+        </a>
+        <a href="mailto:azikenp26@gmail.com" target="_blank" rel="noreferrer">
+          <FaEnvelope className="w-6 md:w-8 h-6 md:h-8" />
+        </a>
+        <a href="https://hashnode.com/@Azikenp" target="_blank" rel="noreferrer">
+          <FaGlobe className="w-6 md:w-8 h-6 md:h-8" />
+        </a>
       </div>
     </div>
   )
