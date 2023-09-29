@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='flex flex-col bg-[#2f2f2f] min-h-[100vh] min-w-[100vw]'>
+    <div className='flex flex-col bg-[#2f2f2f] min-h-[100vh] max-w-[100vw]'>
       <Nav />
       <Hero />
       <About />
