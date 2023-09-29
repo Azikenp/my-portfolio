@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="flex items-center flex-col  py-[2rem] md:py-[1.82rem] px-[0.85rem] md:px-[2.85rem] lg:px-[3.85rem] transition duration-700 ease-in-out">
+    <nav className="flex items-center py-[2rem] md:py-[1.82rem] px-[0.85rem] md:px-[2.85rem] lg:px-[3.85rem] flex-col  transition duration-700 ease-in-out">
       <div className="flex items-center justify-between w-full">
         <Link
           to="/"
