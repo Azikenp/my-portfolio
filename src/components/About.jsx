@@ -13,16 +13,16 @@ const About = () => {
       </div>
       <div className="flex items-center justify-center mt-5 gap-x-7 text-[#dde5eb]">
         <a href="https://www.linkedin.com/in/aziken-precious-712043237/" target="_blank" rel="noreferrer">
-          <FaLinkedin className="w-6 md:w-8 h-6 md:h-8" />
+          <FaLinkedin className="hover:scale-[105%] w-6 md:w-8 h-6 md:h-8" />
         </a>
         <a href="https://github.com/Azikenp" target="_blank" rel="noreferrer">
-          <FaGithub className="w-6 md:w-8 h-6 md:h-8" />
+          <FaGithub className="hover:scale-[105%] w-6 md:w-8 h-6 md:h-8" />
         </a>
         <a href="mailto:azikenp26@gmail.com" target="_blank" rel="noreferrer">
-          <FaEnvelope className="w-6 md:w-8 h-6 md:h-8" />
+          <FaEnvelope className="hover:scale-[105%] w-6 md:w-8 h-6 md:h-8" />
         </a>
         <a href="https://hashnode.com/@Azikenp" target="_blank" rel="noreferrer">
-          <img src={hashnode} className="w-6 md:w-8 h-6 md:h-8" alt="hashnode icon" />
+          <img src={hashnode} className="hover:scale-[105%] w-6 md:w-8 h-6 md:h-8" alt="hashnode icon" />
         </a>
       </div>
     </div>
