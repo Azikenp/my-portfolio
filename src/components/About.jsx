@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaEnvelope, FaGlobe } from "react-icons/fa";
+import hashnode from '../assets/img/brand-icon-white.png'
 
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
           <FaEnvelope className="w-6 md:w-8 h-6 md:h-8" />
         </a>
         <a href="https://hashnode.com/@Azikenp" target="_blank" rel="noreferrer">
-          <FaGlobe className="w-6 md:w-8 h-6 md:h-8" />
+          <hashnode className="w-6 md:w-8 h-6 md:h-8" />
         </a>
       </div>
     </div>
