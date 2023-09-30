@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
@@ -8,6 +8,19 @@ const Nav = () => {
   const handleClick = () => {
     setToggle((prev) => !prev);
   };
+
+  useEffect(() => {
+    // smooth scroll
+  document.querySelector('nav').addEventListener('click', function(e){
+  e.preventDefault();
+  //matching strategy
+  if(e.target.classList.contains('nav--link')){
+    console.log('hi');
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({behavior: 'smooth'})
+  }
+});
+  }, [])
 
   return (
     <nav className="flex items-center py-[2rem] md:py-[1.82rem] px-[0.85rem] md:px-[2.85rem] lg:px-[3.85rem] flex-col  transition duration-700 ease-in-out">
@@ -27,18 +40,18 @@ const Nav = () => {
         </button>
 
         <div className="hidden md:flex gap-x-[70px] text-[#a1a6aa] uppercase font-bold text-[19px] lg:text-[20px]">
-          <Link to="#about" className="hover:text-[#dde5eb]">about</Link>
-          <Link to="projects" className="hover:text-[#dde5eb]">projects</Link>
-          <Link to="contact" className="hover:text-[#dde5eb]">contact</Link>
+          <a href="#about" className="nav--link hover:text-[#dde5eb]">about</a>
+          <a href="#projects" className="nav--link hover:text-[#dde5eb]">projects</a>
+          <a href="#contact" className="nav--link hover:text-[#dde5eb]">contact</a>
         </div>
       </div>
 
       {/* mobile menu */}
       {toggle ? (
         <div id="nav--links" className="flex flex-col items-center transition duration-700 ease-in-out gap-y-7 text-[#dde5eb] uppercase font-semibold w-full max-w-[470px] p-[1.72rem] mt-4 md:hidden">
-          <Link className="text-[#a1a6aa] hover:text-[#dde5eb]" to="#about">about</Link>
-          <Link className="text-[#a1a6aa] hover:text-[#dde5eb]" to="projects">projects</Link>
-          <Link className="text-[#a1a6aa] hover:text-[#dde5eb]" to="contact">contact</Link>
+          <a className="nav--link text-[#a1a6aa] hover:text-[#dde5eb]" href="#about">about</a>
+          <a className="nav--link text-[#a1a6aa] hover:text-[#dde5eb]" href="#projects">projects</a>
+          <a className="nav--link text-[#a1a6aa] hover:text-[#dde5eb]" href="#contact">contact</a>
         </div>
       ) : (
         null

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({ data }) => {
-  console.log(data.src);
   return (
     <div className="card p-3 rounded-[10px] min-w-[21rem] max-w-[21rem] w-[80%] lg:min-w-[90%] font-poppins hover:scale-[105%]">
       <img

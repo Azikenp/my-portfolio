@@ -9,8 +9,8 @@ import {
   FaBootstrap,
   FaReact,
 } from "react-icons/fa";
-import tailwind from '../assets/tailwindcss.svg'
-import materiaUi from '../assets/material-ui2.svg'
+import tailwind from '..//assets/img/tailwindcss.svg'
+import materiaUi from '../assets/img/material-ui2.svg'
 
 const Stacks = () => {
   return (
