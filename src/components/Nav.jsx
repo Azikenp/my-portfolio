@@ -40,9 +40,9 @@ const Nav = () => {
         </button>
 
         <div className="hidden md:flex gap-x-[70px] text-[#a1a6aa] uppercase font-bold text-[19px] lg:text-[20px]">
-          <a href="#about" className="nav--link hover:text-[#dde5eb]">about</a>
-          <a href="#projects" className="nav--link hover:text-[#dde5eb]">projects</a>
-          <a href="#contact" className="nav--link hover:text-[#dde5eb]">contact</a>
+          <a href="#about" className="nav--link relative hover:text-[#dde5eb] hover:after:absolute after:bg-[#a1a6aa] after:w-full after:h-[1px] after:top-12 after:left-0">about</a>
+          <a href="#projects" className="nav--link relative hover:text-[#dde5eb] hover:after:absolute after:bg-[#a1a6aa] after:w-full after:h-[1px] after:top-12 after:left-0">projects</a>
+          <a href="#contact" className="nav--link relative hover:text-[#dde5eb] hover:after:absolute after:bg-[#a1a6aa] after:w-full after:h-[1px] after:top-12 after:left-0">contact</a>
         </div>
       </div>
 
